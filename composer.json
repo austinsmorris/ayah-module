@@ -1,0 +1,24 @@
+{
+    "name": "austinsmorris/ayah-module",
+    "description": "A ZF2 module for Are You A Human's PlayThru captcha alternative.",
+    "type": "library",
+    "keywords": [
+        "zf2",
+        "captcha",
+        "Are You A Human",
+        "PlayThru"
+    ],
+    "homepage": "https://github.com/austinsmorris",
+    "require": {
+        "php": ">=5.3.3",
+        "zendframework/zend-modulemanager": "~2.1",
+        "zendframework/zend-mvc": "~2.1",
+        "zendframework/zend-servicemanager": "~2.1",
+        "zendframework/zend-view": "~2.1"
+    },
+    "autoload": {
+        "psr-0": {
+            "AYAH": "src/"
+        }
+    }
+}
