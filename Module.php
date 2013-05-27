@@ -30,6 +30,7 @@ class Module
 
     /**
      * Get the controller plugin configuration.
+     *
      * @return array
      */
     public function getControllerPluginConfig()
